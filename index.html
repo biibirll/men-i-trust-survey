@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Men I Trust survey</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="root" class="container-fluid">
+		<div id="form-body" class="" container">
+			<main>
+				<div class="row">
+						<h1 id="title" class="display-2 text-center col">Men I Trust survey</h1>
+				</div>
+
+				<div class="row">
+						<p id="description" class="text-center col">You're listening to Radio Men I Trust. And I want to hear how you feel about it!</p>
+				</div>
+
+				<form id="survey-form">
+					<label id="name-label" class="row" for="name">
+						<span class="col-4">What's the name you go by?</span>
+						<input id="name" class="col-8" type="text" placeholder="e.g.: Lauren" required />
+					</label>
+
+					<label id="email-label" class="row" for="email">
+						<span class="col-4">What's your email?</span>
+						<input id="email" class="col-8" type="email" placeholder="lauren@menitrust.com" required />
+					</label>
+
+					<div class="row">
+						<label class="col-4" for="dropdown">Which album resonates with you the most?</label>
+						<select id="dropdown" class="col-8" required>
+							<option>Men I Trust</option>
+							<option>Headroom</option>
+							<option>Oncle Jazz</option>
+							<option>Untourable Album</option>
+							<option>Forever Live Sessions</option>
+						</select>
+					</div>
+
+					<div class="row my-4">
+						<fieldset class="col-sm-6">
+							<legend class="row text-center">
+								<span class="col">Pick the word which better describes your favorite song's vibe</span>
+							</legend>
+
+							<div class="row">
+								<label class="col-6"><input type="radio" name="feeling" value="Dreammy" checked> Dreammy</label>
+								<label class="col-6"><input type="radio" name="feeling" value="Chill"> Chill</label>
+							</div>
+
+							<div class="row">
+								<label class="col-6"><input type="radio" name="feeling" value="Mellow"> Mellow</label>
+								<label class="col-6"><input type="radio" name="feeling" value="Hypnotic"> Hypnotic</label>
+							</div>
+
+							<div class="row">
+								<label class="col-6"><input type="radio" name="feeling" value="Relaxing"> Relaxing</label>
+								<label class="col-6"><input type="radio" name="feeling" value="Ethereal"> Ethereal</label>
+							</div>
+						</fieldset>
+
+						<fieldset class="col-sm-6">
+							<legend class="row text-center">
+								<span class="col">Check the songs that you have on repeat:</span>
+							</legend>
+
+							<div class="row">
+								<label class="col-6"><input type="checkbox" name="singles" value="Show Me How"> Show Me How</label>
+								<label class="col-6"><input type="checkbox" name="singles" value="I Hope to Be Around"> I Hope to Be
+									Around</label>
+							</div>
+
+							<div class="row">
+								<label class="col-6"><input type="checkbox" name="singles" value="Tailwhip"> Tailwhip</label>
+								<label class="col-6"><input type="checkbox" name="singles" value="Numb"> Numb</label>
+							</div>
+
+							<div class="row">
+								<label class="col-6"><input type="checkbox" name="singles" value="Seven"> Seven</label>
+								<label class="col-6"><input type="checkbox" name="singles" value="Lauren"> Lauren</label>
+							</div>
+
+							<div class="row">
+								<label class="col-6"><input type="checkbox" name="singles" value="Say Can You Hear"> Say Can You
+									Hear</label>
+								<label class="col-6"><input type="checkbox" name="singles" value="Sugar"> Sugar</label>
+							</div>
+
+							<div class="row">
+								<label class="col-6"><input type="checkbox" name="singles" value="Norton Commander"> Norton
+									Commander</label>
+							</div>
+						</fieldset>
+					</div>
+
+					<label id="number-label" class="row" for="number">
+						<span class="col-8">On a scale of 1 to 10, how likely are you to recommend Men I Trust's
+							chill beats to a friend?</span>
+
+						<div class="col-4">
+							<input id="number" type="number" min="1" max="10" placeholder="1 - 10" required />
+						</div>
+					</label>
+
+					<label class="row" for="comments">
+						<span class="col">Any extra comments?</span>
+						<div class="row">
+							<textarea id="comments" class="col"></textarea>
+						</div>
+					</label>
+
+					<div class="row">
+							<p class="col">Don't worry, we won't share your email with anyone else and it will only be used to match your response
+								to you.</p>
+					</div>
+
+					<div class="row">
+						<button id="submit" class="col" type=submit">Show your love</button>
+					</div>
+				</form>
+			</main>
+		</div>
+	</div>
+
+	
+</body>
+
+</html>
