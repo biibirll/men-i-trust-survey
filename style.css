@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 #root {
 	color: #1E1E1E;
 	background-color: #DFDFDF;
@@ -13,4 +17,18 @@
 
 #submit {
 	background-color: #F6C4D2;
+}
+
+#thanks-root {
+	width: 100vw;
+	height: 100vh;
+	background-color: #F6C4D2;
+	color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#content {
+	text-align: center;
 }
