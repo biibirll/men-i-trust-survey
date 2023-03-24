@@ -1,38 +1,43 @@
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
 }
 
 #root {
-	color: #1E1E1E;
-	background-color: #DFDFDF;
+  color: #1e1e1e;
+  background-color: #dfdfdf;
 }
 
 #form-body {
-	background-color: #F7E7EF;
+  background-color: #f7e7ef;
 }
 
 #title {
-	color: #D7285C;
+  color: #d7285c;
 }
 
 #submit {
-	background-color: #F6C4D2;
+  background-color: #f6c4d2;
 }
 
 #thanks-root {
-	width: 100vw;
-	height: 100vh;
-	background-color: #F6C4D2;
-	color: #1E1E1E;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6c4d2;
+  color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content {
-	text-align: center;
+  text-align: center;
 }
 
 span.fa-headphones {
-	color: #1E1E1E;
+  color: #1e1e1e;
 }
